@@ -1,0 +1,130 @@
+.front-page-first {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(173, 169, 169);
+}
+.front-page-first-imag {
+  width: 100%;
+  margin-top: 5px;
+}
+.use-grade {
+  text-align: center;
+  background-color: greenyellow;
+  display: inline-flex;
+  padding-inline: 20px;
+  border-radius: 4px;
+}
+.first-with-text {
+  text-align: center;
+}
+.h-two-stle {
+  color: rgb(109, 158, 174);
+}
+.button1-first-page {
+  background-color: lightgreen;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 5px;
+  padding-inline: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button1-first-page:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.16s;
+}
+.button2-first-page {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-inline: 15px;
+  border-style: none;
+  border-radius: 5px;
+}
+.button2-first-page:hover {
+  background-color: #f2e0d0;
+  transition: background-color 0.15s;
+}
+.header {
+  text-align: center;
+  font-size: 15px;
+}
+.titl {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+.after-title-now-pic {
+  width: 300px;
+  float: left;
+  border-radius: 20px;
+  padding-right: 5px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  vertical-align: top;
+}
+.footer-desc {
+  width: 370px;
+}
+.footer-titl {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.footer-desc-text {
+  margin-top: 8px;
+}
+
+.use-grade {
+  text-align: center;
+  background-color: greenyellow;
+  display: inline-flex;
+  padding-inline: 20px;
+  border-radius: 4px;
+}
+.desc-exam-top {
+  font-style: inherit;
+  margin-top: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(141, 136, 136);
+  border-radius: 5px;
+  padding-inline: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.top-exam-title {
+  color: rgb(68, 113, 0);
+  text-align: center;
+  font-size: 15px;
+  margin-inline: 0px;
+}
+.grades-title-exams {
+  text-decoration: underline;
+}
+.exams-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 20px;
+}
+.header-non-main {
+  background-image: url("../Elimupepe/Elimu-images/Student\ with\ gadget.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(173, 169, 169);
+  padding-bottom: 20px;
+}
+.nav-link {
+  color: black;
+  font-size: 15px;
+}
